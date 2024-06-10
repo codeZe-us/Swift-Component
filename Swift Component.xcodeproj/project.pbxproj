@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713826BC2C16F64000684D93 /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713826BB2C16F64000684D93 /* BackgroundAndOverlay.swift */; };
+		713826BE2C16FAE600684D93 /* StackFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713826BD2C16FAE600684D93 /* StackFrame.swift */; };
+		713826C02C16FE4300684D93 /* SpacierFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713826BF2C16FE4300684D93 /* SpacierFrame.swift */; };
 		71B96A5C2C0FB614002CF12A /* Swift_ComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B96A5B2C0FB614002CF12A /* Swift_ComponentApp.swift */; };
 		71B96A5E2C0FB614002CF12A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B96A5D2C0FB614002CF12A /* ContentView.swift */; };
 		71B96A602C0FB617002CF12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B96A5F2C0FB617002CF12A /* Assets.xcassets */; };
@@ -14,9 +17,16 @@
 		71B96A6A2C1028A3002CF12A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B96A692C1028A3002CF12A /* Shapes.swift */; };
 		71B96A6C2C102EB7002CF12A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B96A6B2C102EB7002CF12A /* Colors.swift */; };
 		71B96A6E2C1035C6002CF12A /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B96A6D2C1035C6002CF12A /* Gradient.swift */; };
+		71EC164E2C1457290086EB4F /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC164D2C1457290086EB4F /* Icons.swift */; };
+		71EC16502C145C6C0086EB4F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC164F2C145C6C0086EB4F /* Image.swift */; };
+		71EC16522C14623B0086EB4F /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC16512C14623B0086EB4F /* Frame.swift */; };
+		71EC16542C14646C0086EB4F /* backgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC16532C14646C0086EB4F /* backgroundOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		713826BB2C16F64000684D93 /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
+		713826BD2C16FAE600684D93 /* StackFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackFrame.swift; sourceTree = "<group>"; };
+		713826BF2C16FE4300684D93 /* SpacierFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacierFrame.swift; sourceTree = "<group>"; };
 		71B96A582C0FB614002CF12A /* Swift Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B96A5B2C0FB614002CF12A /* Swift_ComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ComponentApp.swift; sourceTree = "<group>"; };
 		71B96A5D2C0FB614002CF12A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +35,10 @@
 		71B96A692C1028A3002CF12A /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		71B96A6B2C102EB7002CF12A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		71B96A6D2C1035C6002CF12A /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		71EC164D2C1457290086EB4F /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		71EC164F2C145C6C0086EB4F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		71EC16512C14623B0086EB4F /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		71EC16532C14646C0086EB4F /* backgroundOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +73,18 @@
 			children = (
 				71B96A5B2C0FB614002CF12A /* Swift_ComponentApp.swift */,
 				71B96A6B2C102EB7002CF12A /* Colors.swift */,
+				71EC164D2C1457290086EB4F /* Icons.swift */,
 				71B96A6D2C1035C6002CF12A /* Gradient.swift */,
+				71EC16512C14623B0086EB4F /* Frame.swift */,
 				71B96A692C1028A3002CF12A /* Shapes.swift */,
+				71EC16532C14646C0086EB4F /* backgroundOverlay.swift */,
+				713826BB2C16F64000684D93 /* BackgroundAndOverlay.swift */,
+				71EC164F2C145C6C0086EB4F /* Image.swift */,
 				71B96A5D2C0FB614002CF12A /* ContentView.swift */,
 				71B96A5F2C0FB617002CF12A /* Assets.xcassets */,
 				71B96A612C0FB617002CF12A /* Preview Content */,
+				713826BD2C16FAE600684D93 /* StackFrame.swift */,
+				713826BF2C16FE4300684D93 /* SpacierFrame.swift */,
 			);
 			path = "Swift Component";
 			sourceTree = "<group>";
@@ -146,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EC16502C145C6C0086EB4F /* Image.swift in Sources */,
+				71EC16522C14623B0086EB4F /* Frame.swift in Sources */,
 				71B96A6E2C1035C6002CF12A /* Gradient.swift in Sources */,
+				71EC16542C14646C0086EB4F /* backgroundOverlay.swift in Sources */,
+				713826BE2C16FAE600684D93 /* StackFrame.swift in Sources */,
+				713826BC2C16F64000684D93 /* BackgroundAndOverlay.swift in Sources */,
 				71B96A5E2C0FB614002CF12A /* ContentView.swift in Sources */,
+				713826C02C16FE4300684D93 /* SpacierFrame.swift in Sources */,
+				71EC164E2C1457290086EB4F /* Icons.swift in Sources */,
 				71B96A6C2C102EB7002CF12A /* Colors.swift in Sources */,
 				71B96A5C2C0FB614002CF12A /* Swift_ComponentApp.swift in Sources */,
 				71B96A6A2C1028A3002CF12A /* Shapes.swift in Sources */,
