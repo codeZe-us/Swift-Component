@@ -7,14 +7,25 @@
 
 import SwiftUI
 
-struct Gradient: View {
+struct Gradientt: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 25.0)
+            .fill(
+                .red
+//                LinearGradient(gradient: Gradient(colors: [Color.red,
+//                                                           Color.blue]),
+//                               startPoint: .leading,
+//                               endPoint: .trailing)
+//               )
+                
+//            .frame(width: 300, height: 200)
+                )
+
     }
 }
 
-struct Gradient_Previews: PreviewProvider {
+struct Gradientt_Previews: PreviewProvider {
     static var previews: some View {
-        Gradient()
+        Gradientt()
     }
 }
