@@ -21,6 +21,7 @@
 		71EC16502C145C6C0086EB4F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC164F2C145C6C0086EB4F /* Image.swift */; };
 		71EC16522C14623B0086EB4F /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC16512C14623B0086EB4F /* Frame.swift */; };
 		71EC16542C14646C0086EB4F /* backgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC16532C14646C0086EB4F /* backgroundOverlay.swift */; };
+		71F2A6F62C170440001E308E /* SpacerFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2A6F52C170440001E308E /* SpacerFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		71EC164F2C145C6C0086EB4F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		71EC16512C14623B0086EB4F /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		71EC16532C14646C0086EB4F /* backgroundOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundOverlay.swift; sourceTree = "<group>"; };
+		71F2A6F52C170440001E308E /* SpacerFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +80,14 @@
 				71EC16512C14623B0086EB4F /* Frame.swift */,
 				71B96A692C1028A3002CF12A /* Shapes.swift */,
 				71EC16532C14646C0086EB4F /* backgroundOverlay.swift */,
+				713826BF2C16FE4300684D93 /* SpacierFrame.swift */,
+				713826BD2C16FAE600684D93 /* StackFrame.swift */,
 				713826BB2C16F64000684D93 /* BackgroundAndOverlay.swift */,
 				71EC164F2C145C6C0086EB4F /* Image.swift */,
 				71B96A5D2C0FB614002CF12A /* ContentView.swift */,
 				71B96A5F2C0FB617002CF12A /* Assets.xcassets */,
 				71B96A612C0FB617002CF12A /* Preview Content */,
-				713826BD2C16FAE600684D93 /* StackFrame.swift */,
-				713826BF2C16FE4300684D93 /* SpacierFrame.swift */,
+				71F2A6F52C170440001E308E /* SpacerFrame.swift */,
 			);
 			path = "Swift Component";
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				713826BE2C16FAE600684D93 /* StackFrame.swift in Sources */,
 				713826BC2C16F64000684D93 /* BackgroundAndOverlay.swift in Sources */,
 				71B96A5E2C0FB614002CF12A /* ContentView.swift in Sources */,
+				71F2A6F62C170440001E308E /* SpacerFrame.swift in Sources */,
 				713826C02C16FE4300684D93 /* SpacierFrame.swift in Sources */,
 				71EC164E2C1457290086EB4F /* Icons.swift in Sources */,
 				71B96A6C2C102EB7002CF12A /* Colors.swift in Sources */,
